@@ -3,9 +3,9 @@ title: "Getting and Cleaning Data - Course Project"
 ---
 
 # Project files:
-  run_Analysis.R  -- script that reads, merges, reshapes and summarizes the data
-  CodeBook.md     -- description of variables
-  Readme.md       -- description of the steps of the analysis (you are reading it now)
+run_Analysis.R  -- script that reads, merges, reshapes and summarizes the data
+CodeBook.md     -- description of variables
+Readme.md       -- description of the steps of the analysis (you are reading it now)
 
 # Data and Setup
 The data used for this project was downloaded from this url:
@@ -20,6 +20,7 @@ The paths to the different parts of the dataset can also be adjusted in the R sc
 
 Paths to the various parts of the dataset can be modified if needed if the base structure has been altered for some reason.
 All pieces of the data are read and put into variables, in this order:
+
 1. features (main)        : 2-column dataset. 2nd column has the names of all the variables in the dataset
 2. activity_labels (main) : 2-column dataset that allows translation between activity labels and activity numbers
 3. x_test (test)          : values of all the test variables for all activities and subjects
